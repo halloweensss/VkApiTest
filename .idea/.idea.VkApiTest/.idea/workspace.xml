@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb0917f-f06b-4c57-a73b-f7ec9a8ce9df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MockServer/ServerStarter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MockServer/MockServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/MockServer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockServer/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/Server.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MockServer/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MockServer/ServerStarter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MockServer/Server.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MockServer/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VkApiTest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,8 +35,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/VkApiTest/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/MockServer/Server.cs" />
+        <option value="$PROJECT_DIR$/MockServer/MockServer.csproj" />
         <option value="$PROJECT_DIR$/MockServer/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/MockServer/ServerStarter.cs" />
+        <option value="$PROJECT_DIR$/MockServer/Server.cs" />
       </list>
     </option>
   </component>
@@ -55,6 +67,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MockServer/MockServer.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -66,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577482817974</updated>
       <workItem from="1577482822888" duration="466000" />
-      <workItem from="1578221022575" duration="595000" />
+      <workItem from="1578221022575" duration="2525000" />
     </task>
     <servers />
   </component>
@@ -79,23 +111,7 @@
     <option name="sortedColumn" value="1" />
     <option name="symbolColumnWidth" value="155" />
     <coverage-tree-state>
-      <expand>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="3" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="3" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="5" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </coverage-tree-state>
   </component>

@@ -20,6 +20,7 @@
           </e>
         </e>
         <e p="Server.cs" t="Include" />
+        <e p="ServerStarter.cs" t="Include" />
         <e p="UnitTest1.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
