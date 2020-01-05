@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb0917f-f06b-4c57-a73b-f7ec9a8ce9df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MockServer/Models/Group.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VkApiTest/Models/Group.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VkApiTest/Repositories/GroupsRepositoryMock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VkApiTest/Repositories/GroupsRepositoryVk.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VkApiTest/Repositories/IGroupsRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VkApiTest/Services/GroupsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VkApiTest/Services/UsersService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/Server.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VkApiTest/MockServer/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VkApiTest/MockServer/Server.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VkApiTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VkApiTest/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VkApiTest/bin/Debug/netcoreapp2.1/VkApiTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VkApiTest/bin/Debug/netcoreapp2.1/VkApiTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VkApiTest/bin/Debug/netcoreapp2.1/VkApiTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VkApiTest/bin/Debug/netcoreapp2.1/VkApiTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VkApiTest/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/VkApiTest/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +25,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/647AE7D6-89D1-47D4-9DF4-420A4F23C76C/89/0458f2ed/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MockServer/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/502a844c0b104731c7f5d57ef6d0df436d4b75af/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VkApiTest/Services/UsersService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MockServer/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VkApiTest/Services/GroupsService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5179DD1B-79F0-47D0-AC65-7ED8A725EFC1/83/b04730c6/JArray.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/502a844c0b104731c7f5d57ef6d0df436d4b75af/src/NUnitFramework/framework/Internal/MethodWrapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5179DD1B-79F0-47D0-AC65-7ED8A725EFC1/7b/dece60ae/JObject.cs" root0="SKIP_HIGHLIGHTING" />
@@ -78,10 +62,12 @@
         <option value="$PROJECT_DIR$/VkApiTest/Repositories/UsersRepositoryVk.cs" />
         <option value="$PROJECT_DIR$/VkApiTest/Repositories/GroupsRepositoryVk.cs" />
         <option value="$PROJECT_DIR$/MockServer/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/MockServer/Server.cs" />
         <option value="$PROJECT_DIR$/VkApiTest/Repositories/GroupsRepositoryMock.cs" />
         <option value="$PROJECT_DIR$/VkApiTest/MockServer/Server.cs" />
+        <option value="$PROJECT_DIR$/MockServer/Server.cs" />
+        <option value="$PROJECT_DIR$/VkApiTest/Services/UsersService.cs" />
         <option value="$PROJECT_DIR$/VkApiTest/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/VkApiTest/Services/GroupsService.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577482817974</updated>
       <workItem from="1577482822888" duration="466000" />
-      <workItem from="1578221022575" duration="15888000" />
+      <workItem from="1578221022575" duration="16542000" />
     </task>
     <servers />
   </component>
@@ -149,10 +135,10 @@
     <option name="version" value="1" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="coveragePercentColumnWidth" value="122" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="155" />
+    <option name="symbolColumnWidth" value="63" />
     <coverage-tree-state>
       <expand>
         <path>
@@ -206,19 +192,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/VkApiTest/UnitTest1.cs</url>
-          <line>21</line>
-          <properties documentPath="$PROJECT_DIR$/VkApiTest/UnitTest1.cs" initialLine="21">
-            <startOffsets>
-              <option value="367" />
-            </startOffsets>
-            <endOffsets>
-              <option value="427" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

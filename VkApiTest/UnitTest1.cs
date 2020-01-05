@@ -2,6 +2,7 @@ using MockServer;
 using NUnit.Framework;
 using Tests.Models;
 using Tests.Repositories;
+using Tests.Services;
 
 namespace Tests
 {
@@ -19,8 +20,11 @@ namespace Tests
             //Server server = new Server();
             //server.Start();
             
+            
             IUsersRepository userRepository = new UsersRepositoryMock();
-            User user = userRepository.GetUserById("70199826");
+            UsersService usersService = new UsersService(userRepository);
+            
+            User user = usersService.GetUserById("70199826");
             
             Assert.AreEqual("Антон", user.FirstName);
             Assert.AreEqual("Колодяжный",user.LastName);
@@ -28,7 +32,8 @@ namespace Tests
             //server.Stop();
             
             userRepository = new UsersRepositoryVk();
-            user = userRepository.GetUserById("70199826");
+            usersService = new UsersService(userRepository);
+            user = usersService.GetUserById("70199826");
             
             Assert.AreEqual("Антон", user.FirstName);
             Assert.AreEqual("Колодяжный",user.LastName);
@@ -39,12 +44,16 @@ namespace Tests
         public void GetGroupById()
         {
             IGroupsRepository groupRepository = new GroupsRepositoryVk();
-            Group group = groupRepository.GetGroupById("1");
+            GroupsService groupsService = new GroupsService(groupRepository);
+            
+            Group group = groupsService.GetGroupById("1");
             
             Assert.AreEqual("ВКонтакте API", group.Name);
             
             groupRepository = new GroupsRepositoryMock();
-            group = groupRepository.GetGroupById("1");
+            groupsService = new GroupsService(groupRepository);
+            
+            group = groupsService.GetGroupById("1");
             
             Assert.AreEqual("ВКонтакте API", group.Name);
         }
