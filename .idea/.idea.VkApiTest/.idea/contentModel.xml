@@ -12,6 +12,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="MockServer.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
+          <e p="Group.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -36,6 +37,7 @@
           <e p="Server.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="Group.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -47,6 +49,9 @@
           </e>
         </e>
         <e p="Repositories" t="Include">
+          <e p="GroupsRepositoryMock.cs" t="Include" />
+          <e p="GroupsRepositoryVk.cs" t="Include" />
+          <e p="IGroupsRepository.cs" t="Include" />
           <e p="IUsersRepository.cs" t="Include" />
           <e p="UsersRepositoryMock.cs" t="Include" />
           <e p="UsersRepositoryVk.cs" t="Include" />

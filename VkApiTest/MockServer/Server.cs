@@ -87,6 +87,14 @@ namespace MockServer
                     };
                     SendMessageToClient(user,response);
                     break;
+                case "/method/groups/getById/1":
+                    Group group = new Group()
+                    {
+                        Id = "1",
+                        Name = "ВКонтакте API"
+                    };
+                    SendMessageToClient(group,response);
+                    break;
                 default:
                     string faild = "Faild!";
                     SendMessageToClient(faild,response);

@@ -25,12 +25,6 @@ namespace MockServer
         [Test]
         public void CanReceiveMessage()
         {
-            Server server = new Server();
-            
-            server.Start();
-            
-            Assert.AreEqual(true, server.IsStart);
-            
             WebRequest webRequest = WebRequest.Create("http://localhost:8080/test");
             
             webRequest.Credentials = CredentialCache.DefaultCredentials;
@@ -47,7 +41,6 @@ namespace MockServer
             
             stream.Close();
             response.Close();
-            server.Stop();
         }
     }
 }
