@@ -25,7 +25,13 @@ namespace MockServer
         [Test]
         public void CanReceiveMessage()
         {
-            WebRequest webRequest = WebRequest.Create("http://localhost:8080/test/");
+            Server server = new Server();
+            
+            server.Start();
+            
+            Assert.AreEqual(true, server.IsStart);
+            
+            WebRequest webRequest = WebRequest.Create("http://localhost:8080/test");
             
             webRequest.Credentials = CredentialCache.DefaultCredentials;
 
@@ -37,8 +43,9 @@ namespace MockServer
 
             string responseFromServer = streamReader.ReadToEnd();
             
-            Assert.AreEqual("Hello, world!",responseFromServer);
+            Assert.AreEqual("\"Hello, world!\"",responseFromServer);
             
+            server.Stop();
             stream.Close();
             response.Close();
         }

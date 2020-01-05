@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb0917f-f06b-4c57-a73b-f7ec9a8ce9df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MockServer/ServerStarter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VkApiTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/MockServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/MockServer.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MockServer/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/Server.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MockServer/ServerStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/ServerStarter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MockServer/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/MockServer.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MockServer/obj/Debug/netcoreapp2.1/MockServer.pdb" afterDir="false" />
     </list>
@@ -36,8 +32,8 @@
       <list>
         <option value="$PROJECT_DIR$/VkApiTest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/MockServer/MockServer.csproj" />
-        <option value="$PROJECT_DIR$/MockServer/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/MockServer/ServerStarter.cs" />
+        <option value="$PROJECT_DIR$/MockServer/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/MockServer/Server.cs" />
       </list>
     </option>
@@ -98,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577482817974</updated>
       <workItem from="1577482822888" duration="466000" />
-      <workItem from="1578221022575" duration="2525000" />
+      <workItem from="1578221022575" duration="7059000" />
     </task>
     <servers />
   </component>
@@ -111,7 +107,30 @@
     <option name="sortedColumn" value="1" />
     <option name="symbolColumnWidth" value="155" />
     <coverage-tree-state>
-      <expand />
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="3" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="3" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="13" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="3" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="13" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="14" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
       <select />
     </coverage-tree-state>
   </component>
