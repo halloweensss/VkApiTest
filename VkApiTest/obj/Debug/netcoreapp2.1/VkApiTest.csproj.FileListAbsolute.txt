@@ -1,0 +1,15 @@
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.dll
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.pdb
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/bin/Debug/netcoreapp2.1/nunit.engine.netstandard.dll
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/bin/Debug/netcoreapp2.1/Mono.Cecil.dll
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/bin/Debug/netcoreapp2.1/VkApiTest.deps.json
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/bin/Debug/netcoreapp2.1/VkApiTest.runtimeconfig.json
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/bin/Debug/netcoreapp2.1/VkApiTest.runtimeconfig.dev.json
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/bin/Debug/netcoreapp2.1/VkApiTest.dll
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/bin/Debug/netcoreapp2.1/VkApiTest.pdb
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.csprojAssemblyReference.cache
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.csproj.CoreCompileInputs.cache
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.AssemblyInfoInputs.cache
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.AssemblyInfo.cs
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.dll
+/Users/halloween/RiderProjects/VkApiTest/VkApiTest/obj/Debug/netcoreapp2.1/VkApiTest.pdb

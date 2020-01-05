@@ -45,9 +45,9 @@ namespace MockServer
             
             Assert.AreEqual("\"Hello, world!\"",responseFromServer);
             
-            server.Stop();
             stream.Close();
             response.Close();
+            server.Stop();
         }
     }
 }
