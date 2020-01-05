@@ -11,6 +11,9 @@
       <e p="MockServer" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="MockServer.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="User.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.1" t="Include">
@@ -28,6 +31,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Helpers" t="Include">
           <e p="WebHelper.cs" t="Include" />
+        </e>
+        <e p="MockServer" t="Include">
+          <e p="Server.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="User.cs" t="Include" />

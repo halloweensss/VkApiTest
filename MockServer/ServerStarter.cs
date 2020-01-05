@@ -15,11 +15,6 @@ namespace MockServer
             {
                 Console.WriteLine(DateTime.Now +  " Last request: " + server.LastRequest);
                 Thread.Sleep(1000);
-                if (server.LastRequest != null)
-                {
-                    Console.WriteLine(DateTime.Now +  " Last request: " + server.LastRequest);
-                    server.Stop();
-                }
             }
             Console.WriteLine("Server is stopped...");
         }

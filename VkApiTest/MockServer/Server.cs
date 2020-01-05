@@ -77,7 +77,7 @@ namespace MockServer
                     string text = "Hello, world!";
                     SendMessageToClient(text, response);
                     break;
-                case "/method/users/get/123":
+                case "/method/users/get/70199826":
                     User user = new User()
                     {
                         Id = "70199826",
@@ -86,6 +86,10 @@ namespace MockServer
                         IsClosed = false
                     };
                     SendMessageToClient(user,response);
+                    break;
+                default:
+                    string faild = "Faild!";
+                    SendMessageToClient(faild,response);
                     break;
             }
 

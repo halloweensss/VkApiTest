@@ -1,3 +1,4 @@
+using MockServer;
 using NUnit.Framework;
 using Tests.Models;
 using Tests.Repositories;
@@ -15,12 +16,23 @@ namespace Tests
         [Test]
         public void GetUserById()
         {
-            IUsersRepository userRepository = new UsersRepositoryVk();
+            Server server = new Server();
+            server.Start();
+            
+            IUsersRepository userRepository = new UsersRepositoryMock();
             User user = userRepository.GetUserById("70199826");
             
             Assert.AreEqual("Антон", user.FirstName);
             Assert.AreEqual("Колодяжный",user.LastName);
             
+            server.Stop();
+            
+            userRepository = new UsersRepositoryVk();
+            user = userRepository.GetUserById("70199826");
+            
+            Assert.AreEqual("Антон", user.FirstName);
+            Assert.AreEqual("Колодяжный",user.LastName);
+
         }
     }
 }
