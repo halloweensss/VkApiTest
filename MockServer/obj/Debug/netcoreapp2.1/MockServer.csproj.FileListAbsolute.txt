@@ -1,0 +1,15 @@
+/Users/halloween/RiderProjects/VkApiTest/MockServer/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.dll
+/Users/halloween/RiderProjects/VkApiTest/MockServer/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.pdb
+/Users/halloween/RiderProjects/VkApiTest/MockServer/bin/Debug/netcoreapp2.1/nunit.engine.netstandard.dll
+/Users/halloween/RiderProjects/VkApiTest/MockServer/bin/Debug/netcoreapp2.1/Mono.Cecil.dll
+/Users/halloween/RiderProjects/VkApiTest/MockServer/bin/Debug/netcoreapp2.1/MockServer.deps.json
+/Users/halloween/RiderProjects/VkApiTest/MockServer/bin/Debug/netcoreapp2.1/MockServer.runtimeconfig.json
+/Users/halloween/RiderProjects/VkApiTest/MockServer/bin/Debug/netcoreapp2.1/MockServer.runtimeconfig.dev.json
+/Users/halloween/RiderProjects/VkApiTest/MockServer/bin/Debug/netcoreapp2.1/MockServer.dll
+/Users/halloween/RiderProjects/VkApiTest/MockServer/bin/Debug/netcoreapp2.1/MockServer.pdb
+/Users/halloween/RiderProjects/VkApiTest/MockServer/obj/Debug/netcoreapp2.1/MockServer.csprojAssemblyReference.cache
+/Users/halloween/RiderProjects/VkApiTest/MockServer/obj/Debug/netcoreapp2.1/MockServer.csproj.CoreCompileInputs.cache
+/Users/halloween/RiderProjects/VkApiTest/MockServer/obj/Debug/netcoreapp2.1/MockServer.AssemblyInfoInputs.cache
+/Users/halloween/RiderProjects/VkApiTest/MockServer/obj/Debug/netcoreapp2.1/MockServer.AssemblyInfo.cs
+/Users/halloween/RiderProjects/VkApiTest/MockServer/obj/Debug/netcoreapp2.1/MockServer.dll
+/Users/halloween/RiderProjects/VkApiTest/MockServer/obj/Debug/netcoreapp2.1/MockServer.pdb

@@ -1,3 +1,5 @@
+using System.Net;
+using System.Net.NetworkInformation;
 using NUnit.Framework;
 
 namespace Tests
@@ -10,9 +12,13 @@ namespace Tests
         }
 
         [Test]
-        public void Test1()
+        public void CanStartServer()
         {
-            Assert.Pass();
+            Ping ping = new Ping();
+
+            PingReply pingReply = ping.Send(new IPAddress(new byte[]{127, 0, 0, 1}), 1000);
+            
+            Assert.AreEqual(pingReply.Status, IPStatus.Success);
         }
     }
 }
